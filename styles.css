@@ -6,7 +6,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    padding-top: 80px; /* Ajuste para que el cabecero no tape el contenido */
+    padding-top: 100px; /* Ajuste mayor para que el cabecero no tape el contenido */
 }
 
 /* Encabezado */
@@ -16,9 +16,10 @@ header {
     padding: 20px;
     font-family: 'Cinzel', serif;
     text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
-    position: fixed;
     width: 100%;
     top: 0;
+    left: 0;
+    position: relative; /* Hace que el cabecero ya no sea fijo y se desplace con la página */
     z-index: 1000;
 }
 
