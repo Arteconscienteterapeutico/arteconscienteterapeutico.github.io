@@ -52,21 +52,5 @@ section {
     border-radius: 10px;
     width: 90%;
     max-width: 1000px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    opacity: 1;  /* Aseguramos que las secciones sean visibles */
-    transform: translateY(0); /* Evitamos que estén ocultas */
-}
-
-h1, h2 {
-    font-family: 'Cinzel', serif;
-}
-
-/* Pie de página */
-footer {
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 20px;
-    margin-top: 20px;
-    font-family: 'Cinzel', serif;
-}
+    box-shadow: 0px 4px 10px rgba(0
 
