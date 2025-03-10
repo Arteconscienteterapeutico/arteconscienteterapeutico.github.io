@@ -19,8 +19,13 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    position: relative; /* Hace que el cabecero ya no sea fijo y se desplace con la página */
+    position: absolute; /* Permite que el cabecero se mueva con la página */
     z-index: 1000;
+}
+
+/* Ajuste para evitar que el contenido quede cubierto */
+main {
+    margin-top: 140px; /* Da más espacio debajo del header */
 }
 
 /* Navegación */
